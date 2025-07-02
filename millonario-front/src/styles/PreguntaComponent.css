@@ -1,0 +1,27 @@
+.pregunta-titulo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pregunta-alternativas {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pregunta-resultado {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.boton-siguiente {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

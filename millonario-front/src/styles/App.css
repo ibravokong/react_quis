@@ -1,0 +1,38 @@
+.background-video {
+  position: fixed;         /* stay behind everything */
+  top: 0;
+  left: 0;
+  width: 100vw;            /* fill viewport width */
+  height: 100vh;           /* fill viewport height */
+  object-fit: cover;       /* keep aspect ratio, fill container */
+  z-index: -1;             /* send it to the back */
+  pointer-events: none;    /* let clicks pass through */
+}
+
+.app-container {
+  position: relative;  /* this ensures content is above the fixed video */
+  z-index: 1;
+  color: white;        /* white text usually works well over dark videos */
+  padding: 20px;
+  text-align: center;
+}
+
+.app-logo {
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  margin-bottom: 20px;
+}
+
+.boton-obtener {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

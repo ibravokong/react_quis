@@ -1,0 +1,26 @@
+.pregunta-opcion {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.pregunta-opcion.correcta {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.pregunta-opcion.incorrecta {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.pregunta-opcion:disabled {
+  cursor: not-allowed;
+}
